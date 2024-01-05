@@ -1,3 +1,4 @@
+#
 with open("relatorio.txt", "r", encoding='utf-8') as arquivo:
     dados = arquivo.read().replace('.', '').replace(',', '.').split()
 
